@@ -1,11 +1,10 @@
 import { Outlet } from 'react-router-dom';
-import Header from '../components/Header'; // <-- Import Header vào đây
+import Header from '../components/Header'; 
 
 const UserLayout = () => {
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
       
-      {/* Gọi component Header ra */}
       <Header /> 
 
       <main className="container mx-auto py-8 px-4 min-h-[70vh]">
